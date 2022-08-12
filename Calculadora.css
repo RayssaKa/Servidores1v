@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-family: arial black;
+	border-color: Orchid;
+}
+
+.alinda{
+	font-family: arial black;
+	font-size: 40px;
+	color: white;
+
+}
+
+body{
+	background-color: DarkMagenta;
+}
+
+table td{
+	display: inline-block;
+}
+
+.visor{
+	height: 100px;
+	color: Orchid;
+	text-align: center;
+	font-size: 30px;
+	border-top: 1px solid #595555;
+	border-bottom: 1px solid #595555;
+}
+
+.teclado{
+	width: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	padding: 10px;
+	background-color: #363636;
+}
+
+.click{
+	margin:3px;
+	width: 50px;
+	height: 40px;
+	cursor: pointer;
+	border: none;
+	background-color: Gray;
+	color: white;
+	font-size: 16px;
+	transition: all 500ms ease-in-out;
+}
+
+.click:hover{
+	background-color: Orchid;
+}
+
+.reinicio:hover{
+	background-color: gray;
+}
+
+.clickoperacoes:hover{
+	background-color: gray;
+}
+
+.clickigual:hover{
+	background-color: gray;
+}
+
+.reinicio{
+	background-color: Orchid; 
+    color: white;
+    cursor: pointer;
+	border: none;
+    height: 40px;
+    width: 40px; 
+    font-size: 15px;
+}
+
+.clickoperacoes{
+	background-color: Orchid;
+	margin:3px;
+	width: 50px;
+	height: 40px;
+	cursor: pointer;
+	border: none;
+	color: white;
+	font-size: 16px;
+	transition: all 500ms ease-in-out;
+}
+
+.clickigual{
+	background-color: Orchid;
+	color: white;
+	cursor: pointer;
+	border: none;
+	height: 40px;
+	width: 50px;
+}
